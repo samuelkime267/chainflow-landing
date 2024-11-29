@@ -1,8 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   text-decoration: none;
+  font-family: "Space Grotesk", serif;
+  color: white;
+  @apply duration-300;
 }
 
 .canvas-container {
@@ -11,8 +20,23 @@
   left: 0;
   width: 100%;
   height: 100%;
+  z-index: -5;
 }
 
 body {
-  background-color: black;
+  @apply bg-bg;
+}
+
+button.primary {
+  @apply relative text-white capitalize border py-2 px-4 rounded-full bg-primary/20 border-primary hover:bg-primary;
+}
+button.primary .btn-glow {
+  @apply absolute top-0 left-0 w-full h-full bg-primary -z-[1] rounded-full blur-lg;
+}
+
+button.secondary {
+  @apply relative text-white capitalize border py-2 px-4 rounded-full bg-white/20 border-white hover:bg-white hover:text-primary;
+}
+button.secondary .btn-glow {
+  @apply absolute top-0 left-0 w-full h-full bg-white/30 -z-[1] rounded-full blur-lg;
 }
