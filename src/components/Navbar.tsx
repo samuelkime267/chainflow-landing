@@ -9,7 +9,7 @@ export default function Navbar() {
         <Blockchain className="w-12 h-12 !text-primary" />
       </a>
 
-      <div className="flex items-center gap-4 border border-white/40 p-2.5 rounded-full bg-white/10">
+      <div className="hidden lg:flex items-center gap-4 border border-white/40 p-2.5 rounded-full bg-white/10">
         {navLinks.map(({ link, name }, i) => {
           const isActive = i === 0;
           return (
