@@ -5,7 +5,7 @@ import fragmentShader from "../shader/fragment.glsl";
 import vertexShader from "../shader/vertex.glsl";
 import useControl from "../hooks/useControl";
 import { ShaderMaterial } from "three";
-import { OrbitControls } from "@react-three/drei";
+// import { OrbitControls } from "@react-three/drei";
 
 type experienceProps = {
   width: number;
@@ -18,7 +18,7 @@ const Experience = ({ width, height }: experienceProps) => {
 
   return (
     <>
-      <OrbitControls />
+      {/* <OrbitControls /> */}
       <color attach="background" args={["#000216"]} />
       <mesh>
         <shaderMaterial
