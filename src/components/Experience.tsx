@@ -5,7 +5,6 @@ import fragmentShader from "../shader/fragment.glsl";
 import vertexShader from "../shader/vertex.glsl";
 import useControl from "../hooks/useControl";
 import { ShaderMaterial } from "three";
-import { OrthographicCamera } from "@react-three/drei";
 
 type experienceProps = {
   width: number;
