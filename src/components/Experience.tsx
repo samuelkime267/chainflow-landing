@@ -17,6 +17,7 @@ const Experience = ({ width, height }: experienceProps) => {
 
   return (
     <>
+      <color attach="background" args={["#000216"]} />
       <mesh>
         <shaderMaterial
           ref={shaderMaterialRef}

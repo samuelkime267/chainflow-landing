@@ -1,7 +1,7 @@
 import { Canvas } from "@react-three/fiber";
 import Experience from "./components/Experience";
 import "./style/App.css";
-import { Stats } from "@react-three/drei";
+// import { Stats } from "@react-three/drei";
 import { Leva } from "leva";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
@@ -28,7 +28,7 @@ function App() {
               far: 1,
             }}
           >
-            <Stats />
+            {/* <Stats /> */}
             <Experience width={width} height={height} />
           </Canvas>
         </div>

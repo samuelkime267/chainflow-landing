@@ -11,7 +11,7 @@
   text-decoration: none;
   font-family: "Space Grotesk", serif;
   color: white;
-  /* @apply duration-300; */
+  @apply duration-300;
 }
 
 body {
