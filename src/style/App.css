@@ -11,16 +11,7 @@
   text-decoration: none;
   font-family: "Space Grotesk", serif;
   color: white;
-  @apply duration-300;
-}
-
-.canvas-container {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -5;
+  /* @apply duration-300; */
 }
 
 body {
