@@ -15,7 +15,6 @@ export default function Button({
   return (
     <button className={`${btnType} ${className}`} {...props}>
       {children}
-      <div className="btn-glow" />
     </button>
   );
 }
