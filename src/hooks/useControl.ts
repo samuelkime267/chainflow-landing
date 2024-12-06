@@ -53,8 +53,8 @@ export default function useControl(
       },
     },
     uPriColor: {
-      // value: "#dfeaff",
-      value: "#e855ff",
+      value: "#dfeaff",
+      // value: "#e855ff",
       onChange: (value) => {
         if (!shaderMaterialRef.current) return;
         shaderMaterialRef.current.uniforms.uPriColor.value = new THREE.Color(
@@ -63,8 +63,8 @@ export default function useControl(
       },
     },
     uSecColor: {
-      // value: "#236cff",
-      value: "#e855ff",
+      value: "#236cff",
+      // value: "#e855ff",
       onChange: (value) => {
         if (!shaderMaterialRef.current) return;
         shaderMaterialRef.current.uniforms.uSecColor.value = new THREE.Color(
@@ -73,8 +73,8 @@ export default function useControl(
       },
     },
     uTerColor: {
-      // value: "#002462",
-      value: "#6e0bf8",
+      value: "#002462",
+      // value: "#6e0bf8",
       onChange: (value) => {
         if (!shaderMaterialRef.current) return;
         shaderMaterialRef.current.uniforms.uTerColor.value = new THREE.Color(

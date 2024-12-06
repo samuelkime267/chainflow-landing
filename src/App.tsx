@@ -12,7 +12,7 @@ function App() {
 
   return (
     <main>
-      <Leva titleBar={true} collapsed />
+      <Leva titleBar={false} collapsed />
       <div className="fixed top-0 left-0 w-full h-full">
         <div className="relative w-full h-full">
           <Canvas
